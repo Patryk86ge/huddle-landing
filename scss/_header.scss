@@ -1,0 +1,72 @@
+
+.conteiner {
+  margin: 0 auto;
+  width: 1440px;
+
+}
+header {
+  background-image: url("../images/bg-hero-desktop.svg");
+  @include bg-posysion;
+
+
+}
+
+.page_header {
+  .conteiner {
+    width: 1440px;
+    margin: 0 auto;
+
+    .nav {
+      @include flex-fsb;
+      height: 100px;
+
+    }
+
+    a {
+      @include header-btm;
+    }
+
+    img {
+      margin-top: 20px;
+    }
+  }
+
+  .header_one {
+    @include flex-fsb;
+
+    .header_two {
+      margin: auto 0;
+    }
+
+    .header_two {
+      margin-right: 50px;
+    }
+
+    .header_btm {
+      @include btm ;
+    }
+
+    .header_nag-txt {
+      font-family: Poppins, sans-serif;
+      font-size: 2.5rem;
+      padding-bottom: 30px;
+      color: $col-header;
+      line-height: 50px;
+    }
+
+    .header_txt {
+      font-family: "Open Sans", sans-serif;
+      font-size: 1rem;
+      margin-bottom: 70px;
+      padding: 10px;
+      color: $col3;
+      line-height: 25px;
+
+    }
+
+    .header_baner {
+      width: 800px;
+      height: 600px;
+    }
+  }
+}

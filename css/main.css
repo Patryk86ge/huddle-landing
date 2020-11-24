@@ -1,0 +1,284 @@
+.conteiner {
+  margin: 0 auto;
+  width: 1440px;
+}
+
+header {
+  background-image: url("../images/bg-hero-desktop.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.page_header .conteiner {
+  width: 1440px;
+  margin: 0 auto;
+}
+.page_header .conteiner .nav {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  height: 100px;
+}
+.page_header .conteiner a {
+  text-decoration: none;
+  margin: auto 0;
+  padding: 15px 55px;
+  color: black;
+  background-color: white;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  box-shadow: 0 0 10px #777;
+  font-family: Poppins;
+}
+.page_header .conteiner img {
+  margin-top: 20px;
+}
+.page_header .header_one {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+.page_header .header_one .header_two {
+  margin: auto 0;
+}
+.page_header .header_one .header_two {
+  margin-right: 50px;
+}
+.page_header .header_one .header_btm {
+  padding: 15px 50px;
+  background-color: #BB3EAF;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 15px;
+  text-align: center;
+  color: #ebfbff;
+  font-family: Poppins;
+}
+.page_header .header_one .header_nag-txt {
+  font-family: Poppins, sans-serif;
+  font-size: 2.5rem;
+  padding-bottom: 30px;
+  color: black;
+  line-height: 50px;
+}
+.page_header .header_one .header_txt {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  margin-bottom: 70px;
+  padding: 10px;
+  color: #808d99;
+  line-height: 25px;
+}
+.page_header .header_one .header_baner {
+  width: 800px;
+  height: 600px;
+}
+
+.cards {
+  margin: 0 auto;
+  max-width: 1240px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: -5rem;
+}
+
+.card {
+  width: 100%;
+  margin-top: 40px;
+  padding: 53px 30px 55px 120px;
+  box-shadow: 2px 2px 8px #f7f7f7, -2px -2px 8px #f7f7f7;
+  border-radius: 15px;
+  display: flex;
+}
+.card--cta {
+  background: white;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 165px;
+  padding: 75px 135px 50px 135px;
+  border: 2px solid #f7f7f7;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card--reverse {
+  flex-direction: row-reverse;
+}
+.card__text {
+  flex: 1;
+  padding-top: 101px;
+  display: flex;
+  flex-direction: column;
+}
+.card__title {
+  color: #00252e;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+.card__paragraph {
+  width: 75%;
+  line-height: 1.4;
+  letter-spacing: 0.3px;
+  font-family: "Open Sans", sans-serif;
+  color: #808d99;
+}
+.card__paragraph--reverse {
+  width: 100%;
+  text-align: left;
+}
+.card__img {
+  flex-basis: 410px;
+}
+.card__img--reverse {
+  margin-right: 150px;
+}
+.card__img img {
+  width: 100%;
+  display: block;
+}
+
+.btn {
+  font-family: "Open Sans";
+  text-decoration: none;
+  text-transform: capitalize;
+  display: block;
+  padding: 20px 65px;
+  border-radius: 30px;
+  box-shadow: 2px 6px 1rem rgba(3, 3, 3, 0.1);
+}
+.btn--cta {
+  background: #ff52bf;
+  color: #fff;
+}
+
+:root {
+  --color__primary: hsl(322, 100%, 66%);
+  --color__neutral__first: hsl(192, 100%, 96%);
+  --color__neutral__second: hsl(192, 100%, 9%);
+  --color__neutral__third: hsl(208, 11%, 55%);
+  --font__main__opensans: "Open Sans", sans-serif;
+  --padding--till--logo: 150px;
+  --section--height: 420px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container__width1440px {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color__neutral__third);
+}
+
+/*FOOTER
+ */
+footer {
+  padding: 150px 0 100px 0;
+  font-size: 18px;
+  color: var(--color__neutral__third);
+  background: var(--color__neutral__second);
+  font-family: var(--font__main__opensans);
+}
+
+.footer__elements {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex__style {
+  display: flex;
+  align-items: baseline;
+}
+
+.width33 {
+  width: 33%;
+}
+
+/*FOOTER CONTACT DETAILS
+ */
+.f__logo {
+  padding-bottom: 10px;
+}
+
+.f__element__contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact__icon {
+  padding-right: 20px;
+}
+
+.text {
+  margin: 1em 0;
+}
+
+/*FOOTER MENY
+ */
+.f__element__meny {
+  justify-content: space-between;
+  align-self: baseline;
+  margin: 0 180px;
+}
+
+.f__list {
+  list-style: none;
+  padding: 0;
+}
+
+.margin__topbottom30 {
+  margin: 30px 0;
+}
+
+/*FOOTER SOCIAL ICONS & COPYRIGHT
+ */
+.f__element__icons__copyright {
+  align-self: baseline;
+}
+
+.f__social__icons {
+  display: flex;
+}
+
+.f__sicon {
+  border: 1px solid var(--color__neutral__third);
+  padding: 5px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+}
+
+.fab {
+  transform: translate(0px, 1px);
+  font-size: 18px;
+}
+
+.twitter {
+  margin: 0 20px;
+}
+
+.twitter .fab {
+  transform: translate(1px, 1px);
+}
+
+.f__copyright {
+  font-size: 15px;
+  transform: translate(0px, 190px);
+  opacity: 50%;
+}
+/*# sourceMappingURL=main.css.map */

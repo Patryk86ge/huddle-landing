@@ -1,0 +1,21 @@
+@mixin btm(){
+  padding: 15px 50px;
+  background-color: $btn-bg;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 15px;
+  text-align: center;
+  color: $col1;
+  font-family:Poppins;
+}
+@mixin header-btm(){
+  text-decoration: none;
+  margin: auto 0;
+  padding: 15px 55px;
+  color:$col-header ;
+  background-color: white;
+  border-radius: 20px;
+  font-size: .9rem;
+  box-shadow:0 0 10px #777;
+  font-family:Poppins;
+}

@@ -1,0 +1,65 @@
+.cards {
+  margin: 0 auto;
+  max-width: 1240px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: -5rem;
+}
+
+.card {
+  width: 100%;
+  margin-top: 40px;
+  padding: 53px 30px 55px 120px;
+  box-shadow: 2px 2px 8px #f7f7f7, -2px -2px 8px #f7f7f7;
+  border-radius: 15px;
+  display: flex;
+}
+.card--cta {
+  background: white;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 165px;
+  padding: 75px 135px 50px 135px;
+  border: 2px solid #f7f7f7;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card--reverse {
+  flex-direction: row-reverse;
+}
+.card__text {
+  flex: 1;
+  padding-top: 101px;
+  display: flex;
+  flex-direction: column;
+}
+.card__title {
+  color: #00252e;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+.card__paragraph {
+  width: 75%;
+  line-height: 1.4;
+  letter-spacing: 0.3px;
+  font-family: "Open Sans", sans-serif;
+  color: #808d99;
+}
+.card__paragraph--reverse {
+  width: 100%;
+  text-align: left;
+}
+.card__img {
+  flex-basis: 410px;
+}
+.card__img--reverse {
+  margin-right: 150px;
+}
+.card__img img {
+  width: 100%;
+  display: block;
+}
+/*# sourceMappingURL=cards.css.map */
